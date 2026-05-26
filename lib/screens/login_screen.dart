@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:task_project11/screens/registerscreen.dart';
 import 'package:task_project11/widgets/containers/greenbutton.dart';
 import 'package:task_project11/widgets/subtitles.dart';
 
@@ -50,12 +51,23 @@ class LoginScreen extends StatelessWidget {
                     "Don’t have an account?",
                     style: TextStyle(fontWeight: FontWeight(600), fontSize: 14),
                   ),
-                  Text(
-                    "Singup",
-                    style: TextStyle(
-                      fontSize: 14,
-                      fontWeight: FontWeight(600),
-                      color: Color(0xff53B175),
+                  InkWell(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => Registerscreen(),
+                        ),
+                      );
+                    },
+
+                    child: Text(
+                      "Singup",
+                      style: TextStyle(
+                        fontSize: 14,
+                        fontWeight: FontWeight(600),
+                        color: Color(0xff53B175),
+                      ),
                     ),
                   ),
                 ],
