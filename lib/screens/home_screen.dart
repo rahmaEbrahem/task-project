@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:task_project11/widgets/containers/list_of_products.dart';
 import 'package:task_project11/widgets/customer_row.dart';
 import 'package:task_project11/widgets/food_banner.dart';
 
@@ -9,7 +10,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Padding(
+        child: SingleChildScrollView(
           padding: const EdgeInsets.symmetric(horizontal: 25),
           child: Center(
             child: Column(
@@ -47,6 +48,10 @@ class HomeScreen extends StatelessWidget {
                 FoodBanner(),
                 SizedBox(height: 30),
                 CustomerRow(title: "Exclusive Offer"),
+                SizedBox(height: 20),
+                ListOfProducts(),
+                SizedBox(height: 30),
+                CustomerRow(title: "Best selling"),
               ],
             ),
           ),
