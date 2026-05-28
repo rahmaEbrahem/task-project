@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:task_project11/widgets/customer_row.dart';
+import 'package:task_project11/widgets/food_banner.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -42,6 +43,9 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ),
                 ),
+                SizedBox(height: 20),
+                FoodBanner(),
+                SizedBox(height: 30),
                 CustomerRow(title: "Exclusive Offer"),
               ],
             ),
