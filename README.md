@@ -1,19 +1,7 @@
 # task-project
 # task_project11
 
-A new Flutter project.
+<img width="308" height="563" alt="Screenshot 2026-05-26 232702" src="https://github.com/user-attachments/assets/61178fde-8a3f-4253-8dd0-b29e27de4128" />
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
+<img width="298" height="626" alt="Screenshot 2026-05-26 232755" src="https://github.com/user-attachments/assets/400b744d-9541-497d-a1cb-61647d9f171e" />
+<img width="290" height="570" alt="Screenshot 2026-05-26 232822" src="https://github.com/user-attachments/assets/c4071abd-dc77-456a-b519-79436b131c4b" />

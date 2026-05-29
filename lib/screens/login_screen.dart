@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:task_project11/screens/home_screen.dart';
 import 'package:task_project11/screens/registerscreen.dart';
 import 'package:task_project11/widgets/containers/greenbutton.dart';
 import 'package:task_project11/widgets/subtitles.dart';
@@ -42,7 +43,15 @@ class LoginScreen extends StatelessWidget {
                 child: Text("Forgot password?"),
               ),
               SizedBox(height: 30),
-              Greenbutton(text: "Login"),
+              InkWell(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => HomeScreen()),
+                  );
+                },
+                child: Greenbutton(text: "Login"),
+              ),
               SizedBox(height: 25),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
