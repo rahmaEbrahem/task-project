@@ -1,3 +1,4 @@
+<img width="318" height="591" alt="home screen" src="https://github.com/user-attachments/assets/01fa99ef-4dc3-431c-bac5-551d90a75ce6" />
 # task-project
 # task_project11
 
