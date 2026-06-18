@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:task_project11/screens/home_screen.dart';
-import 'package:task_project11/screens/registerscreen.dart';
+import 'package:task_project11/screens/home_screen/home_screen.dart';
+import 'package:task_project11/screens/register_screen/registerscreen.dart';
 import 'package:task_project11/widgets/containers/greenbutton.dart';
 import 'package:task_project11/widgets/subtitles.dart';
 
