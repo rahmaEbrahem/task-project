@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:task_project11/screens/home_screen/home_widgets/search_feild.dart';
-import 'package:task_project11/widgets/containers/list_of_products.dart';
+import 'package:task_project11/customer_widgets/search_feild.dart';
+import 'package:task_project11/screens/home_screen/home_widgets/list_of_products.dart';
 import 'package:task_project11/screens/home_screen/home_widgets/see_all_title.dart';
 import 'package:task_project11/screens/home_screen/home_widgets/food_banner.dart';
 

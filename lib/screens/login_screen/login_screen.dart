@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:task_project11/screens/home_screen/home_screen.dart';
 import 'package:task_project11/screens/register_screen/registerscreen.dart';
-import 'package:task_project11/widgets/containers/greenbutton.dart';
-import 'package:task_project11/widgets/subtitles.dart';
+import 'package:task_project11/customer_widgets/containers/greenbutton.dart';
+import 'package:task_project11/screens/login_screen/widget/subtitles.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
