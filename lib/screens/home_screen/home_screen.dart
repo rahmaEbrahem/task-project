@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:task_project11/core/customer_widgets/search_feild.dart';
+import 'package:task_project11/screens/home_screen/home_widgets/home_slider.dart';
 import 'package:task_project11/screens/home_screen/home_widgets/list_of_groceries.dart';
 import 'package:task_project11/screens/home_screen/home_widgets/list_of_products.dart';
 import 'package:task_project11/screens/home_screen/home_widgets/see_all_title.dart';
@@ -27,7 +28,7 @@ class HomeScreen extends StatelessWidget {
                 SizedBox(height: 20),
                 SearchFeild(),
                 SizedBox(height: 20),
-                FoodBanner(),
+                HomeSlider(),
                 SizedBox(height: 30),
                 SeeAllTitle(title: "Exclusive Offer"),
                 SizedBox(height: 20),
