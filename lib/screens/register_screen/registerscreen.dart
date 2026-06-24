@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task_project11/customer_widgets/containers/greenbutton.dart';
+import 'package:task_project11/core/customer_widgets/containers/greenbutton.dart';
 import 'package:task_project11/screens/login_screen/login_screen.dart';
 import 'package:task_project11/screens/login_screen/widget/subtitles.dart';
 import 'package:task_project11/screens/register_screen/widgets/privacy_police_row.dart';
