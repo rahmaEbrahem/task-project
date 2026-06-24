@@ -43,14 +43,14 @@ class LoginScreen extends StatelessWidget {
                 child: Text("Forgot password?"),
               ),
               SizedBox(height: 30),
-              InkWell(
+              Greenbutton(
+                text: "Login",
                 onTap: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => HomeScreen()),
                   );
                 },
-                child: Greenbutton(text: "Login"),
               ),
               SizedBox(height: 25),
               Row(

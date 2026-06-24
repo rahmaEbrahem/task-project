@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:task_project11/customer_widgets/containers/greenbutton.dart';
+import 'package:task_project11/screens/login_screen/login_screen.dart';
 import 'package:task_project11/screens/login_screen/widget/subtitles.dart';
+import 'package:task_project11/screens/register_screen/widgets/privacy_police_row.dart';
+import 'package:task_project11/screens/register_screen/widgets/singup_massage.dart';
 
 class Registerscreen extends StatelessWidget {
   const Registerscreen({super.key});
@@ -44,47 +47,19 @@ class Registerscreen extends StatelessWidget {
                   decoration: InputDecoration(suffix: Icon(Icons.visibility)),
                 ),
                 SizedBox(height: 20),
-                Row(
-                  children: [
-                    Text("By continuing you agree to our "),
-                    Text(
-                      "Terms of Service",
-                      style: TextStyle(color: Color(0xff53B175)),
-                    ),
-                  ],
-                ),
-                Row(
-                  children: [
-                    Text(" and"),
-                    Text(
-                      " Privacy Policy.",
-                      style: TextStyle(color: Color(0xff53B175)),
-                    ),
-                  ],
-                ),
+                PrivacyPoliceRow(),
                 SizedBox(height: 30),
-                Greenbutton(text: "Sing Up"),
-                SizedBox(height: 25),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      "Already have an account?",
-                      style: TextStyle(
-                        fontSize: 14,
-                        fontWeight: FontWeight(600),
-                      ),
-                    ),
-                    Text(
-                      "Singup",
-                      style: TextStyle(
-                        fontSize: 14,
-                        fontWeight: FontWeight(600),
-                        color: Color(0xff53B175),
-                      ),
-                    ),
-                  ],
+                Greenbutton(
+                  text: "Sing Up",
+                  onTap: () {
+                    Navigator.pop(
+                      context,
+                      MaterialPageRoute(builder: (context) => LoginScreen()),
+                    );
+                  },
                 ),
+                SizedBox(height: 25),
+                SingupMassage(),
                 SizedBox(height: 36.5),
               ],
             ),

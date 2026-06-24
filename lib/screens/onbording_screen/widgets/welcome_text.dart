@@ -17,7 +17,7 @@ class WelcomeText extends StatelessWidget {
               height: 56.36,
               width: 48.47,
             ),
-            SizedBox(height: 35),
+            SizedBox(height: 25),
             Text(
               "Welcome\nto our store",
               textAlign: TextAlign.center,
@@ -27,7 +27,7 @@ class WelcomeText extends StatelessWidget {
                 color: Color(0xffFFFFFF),
               ),
             ),
-            SizedBox(height: 9),
+            SizedBox(height: 3),
             Text(
               "Ger your groceries in as fast as one hour",
               textAlign: TextAlign.center,

@@ -17,22 +17,21 @@ class OnbordingScreen extends StatelessWidget {
           GradientColor(),
           SafeArea(
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                Spacer(flex: 6),
+                SizedBox(height: 3),
                 WelcomeText(),
                 SizedBox(height: 5),
-                InkWell(
+                Greenbutton(
+                  text: "Get Started",
                   onTap: () {
                     Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => LoginScreen()),
                     );
                   },
-
-                  child: Greenbutton(text: "Get Started"),
                 ),
-                SizedBox(height: 10),
+                SizedBox(height: 40),
               ],
             ),
           ),
