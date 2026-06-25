@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task_project11/core/customer_widgets/product_class.dart';
+import 'package:task_project11/core/customer_widgets/files/product_class.dart';
 import 'package:task_project11/core/customer_widgets/containers/card_container.dart';
 
 class ListOfGroceries extends StatelessWidget {

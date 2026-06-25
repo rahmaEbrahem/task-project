@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task_project11/core/customer_widgets/product_class.dart';
+import 'package:task_project11/core/customer_widgets/files/product_class.dart';
 import 'package:task_project11/screens/cart/widget/count_unit/minus_container.dart';
 import 'package:task_project11/screens/cart/widget/count_unit/plus_container.dart';
 

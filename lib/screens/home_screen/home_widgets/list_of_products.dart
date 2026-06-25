@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:task_project11/core/customer_widgets/containers/add_container.dart';
 import 'package:task_project11/core/customer_widgets/containers/card_container.dart';
-import '../../../core/customer_widgets/product_class.dart';
+import '../../../core/customer_widgets/files/product_class.dart';
 
 class ListOfProducts extends StatelessWidget {
   const ListOfProducts({super.key});

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../core/customer_widgets/product_class.dart';
+import '../files/product_class.dart';
 import 'add_container.dart';
 
 class CardContainer extends StatelessWidget {

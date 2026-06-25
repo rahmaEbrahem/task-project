@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task_project11/core/customer_widgets/search_feild.dart';
+import 'package:task_project11/core/customer_widgets/files/search_feild.dart';
 import 'package:task_project11/screens/explore/find_product/widget/find_products.dart';
 
 class FindProductScreen extends StatelessWidget {
