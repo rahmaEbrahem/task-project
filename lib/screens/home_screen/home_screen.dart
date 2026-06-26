@@ -4,7 +4,6 @@ import 'package:task_project11/screens/home_screen/home_widgets/home_slider.dart
 import 'package:task_project11/screens/home_screen/home_widgets/list_of_groceries.dart';
 import 'package:task_project11/screens/home_screen/home_widgets/list_of_products.dart';
 import 'package:task_project11/screens/home_screen/home_widgets/see_all_title.dart';
-import 'package:task_project11/screens/home_screen/home_widgets/food_banner.dart';
 import 'package:task_project11/screens/home_screen/home_widgets/seeds_list.dart';
 
 class HomeScreen extends StatelessWidget {

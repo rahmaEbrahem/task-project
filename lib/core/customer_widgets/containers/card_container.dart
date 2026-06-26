@@ -42,6 +42,5 @@ class CardContainer extends StatelessWidget {
         ],
       ),
     );
-    ;
   }
 }

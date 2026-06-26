@@ -1,10 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:task_project11/core/customer_widgets/files/bottum_nav_bar.dart';
-import 'package:task_project11/screens/cart/my_cart.dart';
-import 'package:task_project11/screens/explore/find_product/beverages_screen.dart';
-import 'package:task_project11/screens/explore/find_product/find_product_screen.dart';
-import 'package:task_project11/screens/favorite/favorite_screen.dart';
-import 'package:task_project11/screens/login_screen/login_screen.dart';
 import 'package:task_project11/screens/onbording_screen/onbording_screen.dart';
 
 class Grocery extends StatelessWidget {

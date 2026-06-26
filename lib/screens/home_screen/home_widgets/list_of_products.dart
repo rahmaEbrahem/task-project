@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:task_project11/core/customer_widgets/containers/add_container.dart';
 import 'package:task_project11/core/customer_widgets/containers/card_container.dart';
+import 'package:task_project11/screens/product_details/product_details.dart';
 import '../../../core/customer_widgets/files/product_class.dart';
 
 class ListOfProducts extends StatelessWidget {
@@ -41,7 +41,15 @@ class ListOfProducts extends StatelessWidget {
         padding: EdgeInsets.symmetric(horizontal: 15),
         itemBuilder: (context, index) {
           final product = items[index];
-          return CardContainer(item: product);
+          return InkWell(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => ProductDetails()),
+              );
+            },
+            child: CardContainer(item: product),
+          );
         },
         separatorBuilder: (context, index) {
           return const SizedBox(width: 15);
