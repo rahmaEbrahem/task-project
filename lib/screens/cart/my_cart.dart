@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:task_project11/core/customer_widgets/containers/greenbutton.dart';
 import 'package:task_project11/screens/cart/widget/cart_list.dart';
+import 'package:task_project11/screens/cart/widget/checkout_box.dart';
 
 class MyCart extends StatelessWidget {
   const MyCart({super.key});
@@ -18,7 +19,24 @@ class MyCart extends StatelessWidget {
             SizedBox(height: 10),
             CartList(),
             SizedBox(height: 20),
-            Greenbutton(text: "checkout"),
+            InkWell(
+              onTap: () {
+                showModalBottomSheet(
+                  context: context,
+                  isScrollControlled: true,
+                  backgroundColor: Colors.white,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.vertical(
+                      top: Radius.circular(30),
+                    ),
+                  ),
+                  builder: (context) {
+                    return CheckoutBox();
+                  },
+                );
+              },
+              child: Greenbutton(text: "checkout"),
+            ),
           ],
         ),
       ),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:task_project11/screens/account_screen/my_account.dart';
 import 'package:task_project11/screens/cart/my_cart.dart';
 import 'package:task_project11/screens/explore/find_product/find_product_screen.dart';
 import 'package:task_project11/screens/favorite/favorite_screen.dart';
@@ -19,6 +20,7 @@ class _BottumNavBarState extends State<BottumNavBar> {
     FindProductScreen(),
     MyCart(),
     FavoriteScreen(),
+    MyAccount(),
   ];
   @override
   Widget build(BuildContext context) {
