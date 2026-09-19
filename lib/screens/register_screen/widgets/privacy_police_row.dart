@@ -7,17 +7,13 @@ class PrivacyPoliceRow extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Row(
+        Wrap(
           children: [
             Text("By continuing you agree to our "),
             Text(
               "Terms of Service",
               style: TextStyle(color: Color(0xff53B175)),
             ),
-          ],
-        ),
-        Row(
-          children: [
             Text(" and"),
             Text(
               " Privacy Policy.",

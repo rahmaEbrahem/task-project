@@ -50,7 +50,7 @@ class BeveragesProduct extends StatelessWidget {
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 2,
         crossAxisSpacing: 14.8,
-        childAspectRatio: 8 / 12,
+        childAspectRatio: 8 / 13,
         mainAxisSpacing: 15,
       ),
       itemBuilder: (context, index) {
