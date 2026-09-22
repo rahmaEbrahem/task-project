@@ -87,4 +87,4 @@ The application includes:
 | <img src="screenshots/account.jpeg" alt="Account" width="200"> |
 
 ## App Demo 
-
+<video src="https://github.com/user-attachments/assets/42df6020-bc21-40f3-9db3-64693a365b04" controls width="400"></video>
