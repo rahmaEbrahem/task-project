@@ -42,7 +42,8 @@ lib/
 │   ├── register_screen/
 │   └── splashscreen/
 ├── grocery.dart
-└── main.dart ```
+└── main.dart 
+```
 
 ## APP Screens 
 
