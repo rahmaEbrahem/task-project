@@ -84,7 +84,7 @@ The application includes:
 
 | Account |
 |---|
-| ![Account](screenshots/account.jpeg) |
+| <img src="screenshots/account.jpeg" alt="Account" width="200"> |
 
 ## App Demo 
 
